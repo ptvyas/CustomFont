@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F766CEA2A383FEE0005F5CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F766CE92A383FEE0005F5CC /* AppDelegate.swift */; };
+		1F766CEC2A383FEE0005F5CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F766CEB2A383FEE0005F5CC /* SceneDelegate.swift */; };
+		1F766CEE2A383FEE0005F5CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F766CED2A383FEE0005F5CC /* ViewController.swift */; };
+		1F766CF12A383FEE0005F5CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F766CEF2A383FEE0005F5CC /* Main.storyboard */; };
+		1F766CF32A383FF00005F5CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F766CF22A383FF00005F5CC /* Assets.xcassets */; };
+		1F766CF62A383FF00005F5CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F766CF42A383FF00005F5CC /* LaunchScreen.storyboard */; };
+		1F766D0C2A3840060005F5CC /* Figtree-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F766CFE2A3840050005F5CC /* Figtree-Black.ttf */; };
+		1F766D0D2A3840060005F5CC /* Figtree-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F766CFF2A3840050005F5CC /* Figtree-ExtraBoldItalic.ttf */; };
+		1F766D0E2A3840060005F5CC /* Figtree-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F766D002A3840050005F5CC /* Figtree-BoldItalic.ttf */; };
+		1F766D0F2A3840060005F5CC /* Figtree-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F766D012A3840050005F5CC /* Figtree-Regular.ttf */; };
+		1F766D102A3840060005F5CC /* Figtree-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F766D022A3840050005F5CC /* Figtree-BlackItalic.ttf */; };
+		1F766D112A3840060005F5CC /* Figtree-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F766D032A3840050005F5CC /* Figtree-Light.ttf */; };
+		1F766D122A3840060005F5CC /* Figtree-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F766D042A3840050005F5CC /* Figtree-SemiBoldItalic.ttf */; };
+		1F766D132A3840060005F5CC /* Figtree-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F766D052A3840060005F5CC /* Figtree-SemiBold.ttf */; };
+		1F766D142A3840060005F5CC /* Figtree-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F766D062A3840060005F5CC /* Figtree-ExtraBold.ttf */; };
+		1F766D152A3840060005F5CC /* Figtree-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F766D072A3840060005F5CC /* Figtree-Italic.ttf */; };
+		1F766D162A3840060005F5CC /* Figtree-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F766D082A3840060005F5CC /* Figtree-Bold.ttf */; };
+		1F766D172A3840060005F5CC /* Figtree-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F766D092A3840060005F5CC /* Figtree-MediumItalic.ttf */; };
+		1F766D182A3840060005F5CC /* Figtree-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F766D0A2A3840060005F5CC /* Figtree-Medium.ttf */; };
+		1F766D192A3840060005F5CC /* Figtree-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F766D0B2A3840060005F5CC /* Figtree-LightItalic.ttf */; };
+		1F766D1B2A3845960005F5CC /* PaletteMosaic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F766D1A2A3845950005F5CC /* PaletteMosaic-Regular.ttf */; };
+		1F766D1D2A3846B50005F5CC /* KumarOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F766D1C2A3846B50005F5CC /* KumarOne-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F766CE62A383FEE0005F5CC /* FontDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F766CE92A383FEE0005F5CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F766CEB2A383FEE0005F5CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1F766CED2A383FEE0005F5CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F766CF02A383FEE0005F5CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F766CF22A383FF00005F5CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F766CF52A383FF00005F5CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F766CF72A383FF00005F5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F766CFE2A3840050005F5CC /* Figtree-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Black.ttf"; sourceTree = "<group>"; };
+		1F766CFF2A3840050005F5CC /* Figtree-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		1F766D002A3840050005F5CC /* Figtree-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-BoldItalic.ttf"; sourceTree = "<group>"; };
+		1F766D012A3840050005F5CC /* Figtree-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Regular.ttf"; sourceTree = "<group>"; };
+		1F766D022A3840050005F5CC /* Figtree-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-BlackItalic.ttf"; sourceTree = "<group>"; };
+		1F766D032A3840050005F5CC /* Figtree-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Light.ttf"; sourceTree = "<group>"; };
+		1F766D042A3840050005F5CC /* Figtree-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		1F766D052A3840060005F5CC /* Figtree-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-SemiBold.ttf"; sourceTree = "<group>"; };
+		1F766D062A3840060005F5CC /* Figtree-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-ExtraBold.ttf"; sourceTree = "<group>"; };
+		1F766D072A3840060005F5CC /* Figtree-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Italic.ttf"; sourceTree = "<group>"; };
+		1F766D082A3840060005F5CC /* Figtree-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Bold.ttf"; sourceTree = "<group>"; };
+		1F766D092A3840060005F5CC /* Figtree-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-MediumItalic.ttf"; sourceTree = "<group>"; };
+		1F766D0A2A3840060005F5CC /* Figtree-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Medium.ttf"; sourceTree = "<group>"; };
+		1F766D0B2A3840060005F5CC /* Figtree-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-LightItalic.ttf"; sourceTree = "<group>"; };
+		1F766D1A2A3845950005F5CC /* PaletteMosaic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PaletteMosaic-Regular.ttf"; sourceTree = "<group>"; };
+		1F766D1C2A3846B50005F5CC /* KumarOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KumarOne-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F766CE32A383FEE0005F5CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F766CDD2A383FEE0005F5CC = {
+			isa = PBXGroup;
+			children = (
+				1F766CE82A383FEE0005F5CC /* FontDemo */,
+				1F766CE72A383FEE0005F5CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F766CE72A383FEE0005F5CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F766CE62A383FEE0005F5CC /* FontDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F766CE82A383FEE0005F5CC /* FontDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1F766CFD2A383FF80005F5CC /* AppFont */,
+				1F766CE92A383FEE0005F5CC /* AppDelegate.swift */,
+				1F766CEB2A383FEE0005F5CC /* SceneDelegate.swift */,
+				1F766CED2A383FEE0005F5CC /* ViewController.swift */,
+				1F766CEF2A383FEE0005F5CC /* Main.storyboard */,
+				1F766CF22A383FF00005F5CC /* Assets.xcassets */,
+				1F766CF42A383FF00005F5CC /* LaunchScreen.storyboard */,
+				1F766CF72A383FF00005F5CC /* Info.plist */,
+			);
+			path = FontDemo;
+			sourceTree = "<group>";
+		};
+		1F766CFD2A383FF80005F5CC /* AppFont */ = {
+			isa = PBXGroup;
+			children = (
+				1F766D1C2A3846B50005F5CC /* KumarOne-Regular.ttf */,
+				1F766D1A2A3845950005F5CC /* PaletteMosaic-Regular.ttf */,
+				1F766CFE2A3840050005F5CC /* Figtree-Black.ttf */,
+				1F766D022A3840050005F5CC /* Figtree-BlackItalic.ttf */,
+				1F766D082A3840060005F5CC /* Figtree-Bold.ttf */,
+				1F766D002A3840050005F5CC /* Figtree-BoldItalic.ttf */,
+				1F766D062A3840060005F5CC /* Figtree-ExtraBold.ttf */,
+				1F766CFF2A3840050005F5CC /* Figtree-ExtraBoldItalic.ttf */,
+				1F766D072A3840060005F5CC /* Figtree-Italic.ttf */,
+				1F766D032A3840050005F5CC /* Figtree-Light.ttf */,
+				1F766D0B2A3840060005F5CC /* Figtree-LightItalic.ttf */,
+				1F766D0A2A3840060005F5CC /* Figtree-Medium.ttf */,
+				1F766D092A3840060005F5CC /* Figtree-MediumItalic.ttf */,
+				1F766D012A3840050005F5CC /* Figtree-Regular.ttf */,
+				1F766D052A3840060005F5CC /* Figtree-SemiBold.ttf */,
+				1F766D042A3840050005F5CC /* Figtree-SemiBoldItalic.ttf */,
+			);
+			path = AppFont;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F766CE52A383FEE0005F5CC /* FontDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F766CFA2A383FF00005F5CC /* Build configuration list for PBXNativeTarget "FontDemo" */;
+			buildPhases = (
+				1F766CE22A383FEE0005F5CC /* Sources */,
+				1F766CE32A383FEE0005F5CC /* Frameworks */,
+				1F766CE42A383FEE0005F5CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontDemo;
+			productName = FontDemo;
+			productReference = 1F766CE62A383FEE0005F5CC /* FontDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F766CDE2A383FEE0005F5CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1F766CE52A383FEE0005F5CC = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 1F766CE12A383FEE0005F5CC /* Build configuration list for PBXProject "FontDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F766CDD2A383FEE0005F5CC;
+			productRefGroup = 1F766CE72A383FEE0005F5CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F766CE52A383FEE0005F5CC /* FontDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F766CE42A383FEE0005F5CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F766D1D2A3846B50005F5CC /* KumarOne-Regular.ttf in Resources */,
+				1F766D132A3840060005F5CC /* Figtree-SemiBold.ttf in Resources */,
+				1F766D122A3840060005F5CC /* Figtree-SemiBoldItalic.ttf in Resources */,
+				1F766D192A3840060005F5CC /* Figtree-LightItalic.ttf in Resources */,
+				1F766D182A3840060005F5CC /* Figtree-Medium.ttf in Resources */,
+				1F766D0F2A3840060005F5CC /* Figtree-Regular.ttf in Resources */,
+				1F766D152A3840060005F5CC /* Figtree-Italic.ttf in Resources */,
+				1F766D112A3840060005F5CC /* Figtree-Light.ttf in Resources */,
+				1F766D102A3840060005F5CC /* Figtree-BlackItalic.ttf in Resources */,
+				1F766D162A3840060005F5CC /* Figtree-Bold.ttf in Resources */,
+				1F766D0E2A3840060005F5CC /* Figtree-BoldItalic.ttf in Resources */,
+				1F766D0D2A3840060005F5CC /* Figtree-ExtraBoldItalic.ttf in Resources */,
+				1F766D172A3840060005F5CC /* Figtree-MediumItalic.ttf in Resources */,
+				1F766CF62A383FF00005F5CC /* LaunchScreen.storyboard in Resources */,
+				1F766D1B2A3845960005F5CC /* PaletteMosaic-Regular.ttf in Resources */,
+				1F766D0C2A3840060005F5CC /* Figtree-Black.ttf in Resources */,
+				1F766D142A3840060005F5CC /* Figtree-ExtraBold.ttf in Resources */,
+				1F766CF32A383FF00005F5CC /* Assets.xcassets in Resources */,
+				1F766CF12A383FEE0005F5CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F766CE22A383FEE0005F5CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F766CEE2A383FEE0005F5CC /* ViewController.swift in Sources */,
+				1F766CEA2A383FEE0005F5CC /* AppDelegate.swift in Sources */,
+				1F766CEC2A383FEE0005F5CC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F766CEF2A383FEE0005F5CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F766CF02A383FEE0005F5CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F766CF42A383FF00005F5CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F766CF52A383FF00005F5CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F766CF82A383FF00005F5CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F766CF92A383FF00005F5CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F766CFB2A383FF00005F5CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RRR9J9T3MV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FontDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.app.FontDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F766CFC2A383FF00005F5CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RRR9J9T3MV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FontDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.app.FontDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F766CE12A383FEE0005F5CC /* Build configuration list for PBXProject "FontDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F766CF82A383FF00005F5CC /* Debug */,
+				1F766CF92A383FF00005F5CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F766CFA2A383FF00005F5CC /* Build configuration list for PBXNativeTarget "FontDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F766CFB2A383FF00005F5CC /* Debug */,
+				1F766CFC2A383FF00005F5CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F766CDE2A383FEE0005F5CC /* Project object */;
+}
