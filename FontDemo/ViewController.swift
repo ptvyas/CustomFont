@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         
-        
+        //Print all fonts
         for family in UIFont.familyNames {
             let sName: String = family as String
             print("family: \(sName)")
